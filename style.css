@@ -204,16 +204,18 @@ nav .nav-container .nav-links li a {
 .all-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 15px;
     margin-left: 135px;
     margin-right: 135px;
     margin-bottom: 100px;
 }
 
 .card {
+    height: 460px;
     margin-top: 50px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
 }
 
 .card img {
@@ -228,6 +230,7 @@ nav .nav-container .nav-links li a {
 
 .all-cards .card p {
     color: gray;
+    padding: 10px 10px;
     text-align: justify;
 }
 
@@ -235,12 +238,10 @@ nav .nav-container .nav-links li a {
     color: #000;
     font-size: 10px;
     font-weight: bold;
-    display: inline-block;
     text-transform: uppercase;
     background-color: #fff;
-    margin-left: 0;
-    margin-top: 20px;
-    padding: 5px 10px;
+    margin-left: 70px;
+    margin-top: 30px;
     border: 1px solid black;
 }
 
