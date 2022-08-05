@@ -143,6 +143,7 @@ nav .nav-container .nav-links li a {
     border-radius: 5px;
     margin-left: 135px;
 }
+
 .banner .link-button:hover {
     color: #fff;
     background-color: rgba(228, 31, 80, 0.945);
@@ -171,7 +172,8 @@ nav .nav-container .nav-links li a {
     margin-bottom: 100px;
 }
 
-.collection h2, .browse-items h2 {
+.collection h2,
+.browse-items h2 {
     text-align: left;
     color: #000;
     text-transform: capitalize;
@@ -251,10 +253,6 @@ nav .nav-container .nav-links li a {
 }
 
 /* ==================== ALL ITEMS END =====================  */
-
-/* ==================== CONTACT START ===================== */
-
-/* ==================== CONTACT END ===================== */
 
 /* ==================== SIGN UP START =====================  */
 .email {
