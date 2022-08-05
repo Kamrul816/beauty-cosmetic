@@ -22,12 +22,14 @@ body {
     overflow-x: hidden;
 }
 
+/* ========================== NAVBAR START ========================= */
 nav {
     width: 100%;
     background-color: black;
     padding: fixed;
     z-index: 99;
 }
+
 .nav-container {
     display: flex;
     justify-content: space-around;
@@ -37,12 +39,14 @@ nav {
 .nav-logo h2 {
     color: #fff;
     padding-top: 15px;
+    text-transform: uppercase;
 }
 
-.nav-logo h2 span{
-    color: rgb(212, 10, 10);
+.nav-logo h2 span, .nav-links span {
+    color: rgba(228, 31, 80, 0.945);
 }
-.nav-logo p{
+
+.nav-logo p {
     color: rgba(170, 173, 175, 0.904);
     padding-bottom: 15px;
 }
@@ -55,7 +59,114 @@ nav .nav-container .nav-links li {
     margin-right: 15px;
     text-transform: uppercase;
 }
+
 nav .nav-container .nav-links li a {
-    color:rgba(194, 201, 206, 0.973);
+    color: rgba(194, 201, 206, 0.973);
 }
 
+/* ========================== NAVBAR END ========================= */
+
+/* ========================== FREE SHIPPING START ========================= */
+.free-shipping {
+    text-align: center;
+}
+
+.free-shipping p {
+    padding: 5px 0;
+    
+    background-color: rgba(228, 31, 80, 0.945);
+}
+
+.free-shipping p .text-1 {
+    text-transform: uppercase;
+}
+
+.free-shipping p .text-2 {
+    color: #fff;
+}
+/* ========================== FREE SHIPPING END ========================= */
+
+.banner {
+    background-image: url(images/banner2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+}
+
+.banner h4 {
+    text-align: left;
+    color: rgba(228, 31, 80, 0.945);
+    text-transform: uppercase;
+    margin-left: 135px;
+    padding-top: 50px;
+}
+
+.banner .center {
+    height: 10px;;
+    color: #000;
+    /* padding-left: 135px; */
+}
+
+.banner h1 {
+    text-align: left;
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-left: 135px;
+}
+
+.banner h2 {
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 135px;
+}
+
+.banner p {
+    text-align: left;
+    color: white;
+    width: 700px;
+    margin-left: 135px;
+    margin-bottom: 50px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: rgba(228, 31, 80, 0.945);
+    border: 2px solid rgba(228, 31, 80, 0.945);
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-left: 135px;
+}
+
+.public-reaction {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background-color: rgba(228, 31, 80, 0.945);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.email-field {
+    color: #AA9F9F;
+    background-color: #D9D9D9;
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.submit {
+    margin-left: -5px;
+    color: white;
+    background-color: #FF5959;
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+}
