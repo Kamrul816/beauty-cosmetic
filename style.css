@@ -43,7 +43,7 @@ nav {
 }
 
 .nav-logo h2 span,
-.nav-links span {
+.nav-links span, footer span {
     color: rgba(228, 31, 80, 0.945);
 }
 
@@ -104,10 +104,11 @@ nav .nav-container .nav-links li a {
     padding-top: 50px;
 }
 
-/* .banner .center {
-    height: 10px;;
-    color: #000;
-    /* padding-left: 135px; */
+.banner hr {
+    width: 50%;
+    border: 1px solid rgba(228, 31, 80, 0.945);
+    margin-left: 135px;
+}
 
 .banner h1 {
     text-align: left;
@@ -192,5 +193,38 @@ nav .nav-container .nav-links li a {
     border: 0;
     border-radius: 0 5px 5px 0;
 }
-
 /* ===================== SIGN UP END ======================  */
+
+/* ==================== FOOTER START =====================  */
+/* Footer section  */
+footer {
+    background-color: #161616;
+    color: #FFFFFF;
+    text-align: center;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.beauty {
+    padding-top: 70px;
+}
+
+footer .icon {
+    margin-top: 0px;
+}
+
+.fab {
+    margin: 0px 12px;
+    color: gray;
+    font-size: 20px;
+}
+
+.fab:hover {
+    color: rgba(0, 225, 255, 0.596);
+}
+
+.copyright {
+    margin: 20px 10px;
+    font-size: 10px;
+}
+/* ==================== FOOTER END =====================  */
