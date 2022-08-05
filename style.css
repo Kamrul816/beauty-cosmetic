@@ -88,7 +88,7 @@ nav .nav-container .nav-links li a {
 
 /* ========================== FREE SHIPPING END ========================= */
 
-/* ==================== BANNER START ===================== */
+/* ========================== BANNER START ============================== */
 .banner {
     background-image: url(images/banner2.webp);
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@ nav .nav-container .nav-links li a {
     background-color: rgba(228, 31, 80, 0.945);
 }
 
-/* ==================== BANNER END ===================== */
+/* ========================== BANNER END ============================ */
 
 /* ==================== PUBLIC REACTION START =====================  */
 .public-reaction {
@@ -167,7 +167,7 @@ nav .nav-container .nav-links li a {
 
 /* ====================== PUBLIC REACTION END ====================== */
 
-/* ==================== COLLECTION START =====================  */
+/* ==================== COLLECTION SECTION START =====================  */
 .collection {
     margin-bottom: 100px;
 }
@@ -201,9 +201,81 @@ nav .nav-container .nav-links li a {
     text-transform: capitalize;
 }
 
-/* ==================== COLLECTION END =====================  */
+/* ==================== COLLECTION SECTION END =====================  */
 
+/* ==================== ABOUT SECTION START =====================  */
+.flex {
+    position: relative;
+}
+
+.left-1 {
+    position: absolute;
+    z-index: 1;
+    width: 55%;
+    height: 550px;
+    right: 0px;
+
+}
+
+.right-1 {
+    position: absolute;
+    z-index: 0;
+    width: 55%;
+    height: 500px;
+    top: 250px;
+}
+
+.flex img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about {
+    width: 45%;
+    /* z-index: 2; */
+    position: absolute;
+    padding-left: 100px;
+    top: 500px;
+}
+
+.about h2 {
+    text-align: right;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-left: 720px;
+}
+
+.about p {
+    width: 100%;
+    text-align: left;
+    margin-left: 720px;
+    margin-bottom: 20px;
+}
+
+.about .link-button {
+    color: #000;
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 720px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.about .link-button:hover {
+    color: #fff;
+    background-color: rgba(228, 31, 80, 0.945);
+}
+
+/* ==================== ABOUT SECTION END =====================  */
 /* ==================== ALL ITEMS START =====================  */
+
+.browse-items {
+    margin-top: 900px;
+}
+
 .all-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -258,18 +330,16 @@ nav .nav-container .nav-links li a {
 /* ==================== CONTACT SECTION START =====================  */
 .flex {
     position: relative;
-    /* margin-bottom: 100px; */
 }
 
-.left {
+.left-2 {
     position: absolute;
     z-index: 1;
     width: 55%;
     height: 500px;
-    /* margin-left: 135px; */
 }
 
-.right {
+.right-2 {
     position: absolute;
     z-index: 0;
     width: 55%;
@@ -298,6 +368,7 @@ nav .nav-container .nav-links li a {
     font-size: 40px;
     margin-left: 35px;
 }
+
 .contact p {
     text-align: justify;
     margin-left: 35px;
@@ -311,7 +382,6 @@ nav .nav-container .nav-links li a {
     text-transform: uppercase;
     background-color: #fff;
     margin-left: 35px;
-    /* margin-top: 50px; */
     border: 1px solid black;
 }
 
@@ -319,6 +389,7 @@ nav .nav-container .nav-links li a {
     color: #fff;
     background-color: rgba(228, 31, 80, 0.945);
 }
+
 /* ==================== CONTACT SECTION END =====================  */
 
 
