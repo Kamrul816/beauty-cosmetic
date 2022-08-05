@@ -18,7 +18,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background-color: rgba(242, 245, 248, 0.945);
+    background-color: rgba(241, 245, 248, 0.979);
     overflow-x: hidden;
 }
 
@@ -151,13 +151,44 @@ nav .nav-container .nav-links li a {
     background-color: rgba(228, 31, 80, 0.945);
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 135px;
+    margin-right: 135px;
     padding: 50px 0;
     border-radius: 10px;
 }
 
 /* ====================== PUBLIC REACTION END ====================== */
+/* ==================== COLLECTION START =====================  */
+.collection {
+    margin-bottom: 100px;
+}
+.collection h2 {
+        text-align: left;
+        color: #000;
+        text-transform: uppercase;
+        margin-left: 135px;
+}
+.collection .categories {
+    display: flex;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.collection .categories h4 {
+    color: rgba(228, 31, 80, 0.945);
+    text-transform: uppercase;
+}
+
+.collection .categories p {
+    color: gray;
+    text-transform: capitalize;
+}
+
+/* ==================== COLLECTION END =====================  */
+
 
 /* ==================== SIGN UP START =====================  */
 .email {
@@ -165,8 +196,8 @@ nav .nav-container .nav-links li a {
     background-color: rgba(228, 31, 80, 0.945);
     margin-top: 30px;
     margin-bottom: 70px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 135px;
+    margin-right: 135px;
     border-radius: 10px;
     padding: 50px 0;
 }
@@ -206,7 +237,7 @@ footer {
 }
 
 .beauty {
-    padding-top: 70px;
+    padding-top: 80px;
 }
 
 footer .icon {
